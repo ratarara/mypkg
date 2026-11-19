@@ -13,8 +13,8 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='kaho',
-    maintainer_email='kaho@todo.todo',
+    maintainer='Kaho Hiyane',
+    maintainer_email='s25c1088rt@chibatech.ac.jp',
     description='a package for practice',
     license='BSD-3-Clause',
     extras_require={
@@ -23,9 +23,9 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [
-            'talker = mypkg.talker:main',
-            'listener = mypkg.listener:main',
+       'console_scripts': [
+           'talker = mypkg.talker:main',
+           'listener = mypkg.listener:main',
         ],
     },
 )
